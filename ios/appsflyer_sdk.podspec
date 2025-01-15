@@ -31,14 +31,10 @@ AppsFlyer is the market leader in mobile advertising attribution & analytics, he
 
   s.subspec 'PurchaseConnector' do |ss|
     ss.dependency 'Flutter'
-    ss.ios.dependency 'PurchaseConnector', '6.15.2'
+    ss.ios.dependency 'PurchaseConnector', '6.15.3'
     ss.source_files = 'PurchaseConnector/**/*'
     ss.public_header_files = 'PurchaseConnector/**/*.h'
   
     ss.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) ENABLE_PURCHASE_CONNECTOR=1' }
   end  
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
-  s.dependency 'Flutter'
-  s.ios.dependency 'AppsFlyerFramework','6.15.3'
 end
