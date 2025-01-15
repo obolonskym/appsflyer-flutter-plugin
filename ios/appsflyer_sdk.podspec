@@ -31,7 +31,7 @@ AppsFlyer is the market leader in mobile advertising attribution & analytics, he
 
   s.subspec 'PurchaseConnector' do |ss|
     ss.dependency 'Flutter'
-    ss.ios.dependency 'PurchaseConnector', '6.15.3'
+    #ss.ios.dependency 'PurchaseConnector', '6.15.3'
     ss.source_files = 'PurchaseConnector/**/*'
     ss.public_header_files = 'PurchaseConnector/**/*.h'
   
